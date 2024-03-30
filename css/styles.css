@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: "Roboto";
+    width: auto;
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.subTitulo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar a {
+    display: block;
+    width: 6rem;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    height: 87.4vh !important;
+    background: url("https://media.istockphoto.com/id/1447210280/es/foto/conceptos-abstractos-de-tecnolog%C3%ADa-de-ciberseguridad-y-protecci%C3%B3n-de-datos-digitales-proteja.webp?b=1&s=170667a&w=0&k=20&c=TOwTnL0cAizoQBiv9NU0nKfuCsypgk0uf4zNpQVQBJ0=") no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.tittle {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+
+.map img {
+    height: 400px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background: rgb(125, 27, 143);
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    height: auto;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: auto;
+    width: 17rem;
+    background: #101010;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+    margin-bottom: 10px;
+}
+
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about {
+    height: auto;
+    background: #171717;
+    padding-top: 20px;
+}
+
+.price {
+    background: url("https://media.istockphoto.com/id/1447210280/es/foto/conceptos-abstractos-de-tecnolog%C3%ADa-de-ciberseguridad-y-protecci%C3%B3n-de-datos-digitales-proteja.webp?b=1&s=170667a&w=0&k=20&c=TOwTnL0cAizoQBiv9NU0nKfuCsypgk0uf4zNpQVQBJ0=") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    padding: 20px 0;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 20px;
+}
+
+.info-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+.red-social {
+    display: flex;
+    align-items: center !important;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.red-social img {
+    width: 40px;
+    height: 40px;
+}
+
+.red-social p {
+    position: relative;
+    ;
+    position: 7;
+}
+
+@media (max-width: 768px) {
+
+   
+
+    .tittle {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: auto;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .info-contact {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .map img {
+        height: 200px;
+    }
+
+    .subTitulo {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    p {
+        margin-bottom: 30px;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .header {
+        height: 79vh !important;
+        margin-top: 80px;
+    }
+
+    .box-container .box {
+        height: auto;
+        width: 17rem;
+        background: #101010;
+        border-radius: 1rem;
+        box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+        margin: 2rem;
+        margin-left: 20px;
+    }
+}
